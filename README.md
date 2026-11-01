@@ -5,7 +5,7 @@ This project explores AI-assisted visual storytelling through Virginia Woolf’s
 ### Virginia Woolf's The Death of the Moth
 
 <details>
-<summary>Read Poem</summary>
+<summary>Read Essay</summary>
 
 
 <p>
@@ -29,7 +29,7 @@ Gemini → Gamma
 ## ⌨️ Presentation Prompts (Gemini)
 ### 🤵🏻 Virginia Woolf Presentation Prompt
 <details>
-<summary><strong>View the Turing Presentation Prompt</strong></summary><p></p>
+<summary><strong>View the Woolf Presentation Prompt</strong></summary><p></p>
 
 Here is the complete, plain text version without any Markdown formatting or code blocks. You can copy and paste this directly:
 
@@ -79,11 +79,11 @@ Subtext: Death is a force too strong for any creature to resist.
 
 ## 👩🏽‍🏫 Presentation Slides (Gamma) <br>
 ### Virginia Woolf Presentation
-This project is a fully functional presentation available at the following links: [View Gamma](https://gamma.app/docs/The-Vitality-of-Life-vs3v1y17f0phpty), [View PDF](https://github.com/redefiningvicky/Thinking-and-Feeling/blob/f20e8a979a6d657b5d86ef9adae674185f5f4e80/Alan_Turing/Alan_Turing.pdf) <p>
+This project is a fully functional presentation available at the following links: [View Gamma](https://gamma.app/docs/The-Vitality-of-Life-vs3v1y17f0phpty), [View PDF](https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf.pdf) <p>
 ## Virginia Woolf Presentation
-<img src="https://github.com/redefiningvicky/Thinking-and-Feeling/blob/551cb794ebd7ab402dfae576a23e9167b49943ae/Alan_Turing/Alan_Turing_S1.png" width="600" />
-<img src="https://github.com/redefiningvicky/Thinking-and-Feeling/blob/ee330a14cae30146c328c9ba7e898412ed472a36/Alan_Turing/Alan_Turing_S2.png" width="600" />
-<img src="https://github.com/redefiningvicky/Thinking-and-Feeling/blob/ee330a14cae30146c328c9ba7e898412ed472a36/Alan_Turing/Alan_Turing_S3.png" width="600" />
+<img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S1.png" width="600" />
+<img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S2.png" width="600" />
+<img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S3.png" width="600" />
 
 ## 💧 Reflection
 Can machines feel?
