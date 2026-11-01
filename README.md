@@ -7,7 +7,6 @@ This project explores AI-assisted visual storytelling through Virginia Woolf’s
 <details>
 <summary>Read Essay</summary>
 
-
 <p>
 
 <p>Moths that fly by day are not properly to be called moths; they do not excite that pleasant sense of dark autumn nights and ivy-blossom which the commonest yellow-underwing asleep in the shadow of the curtain never fails to rouse in us. They are hybrid creatures, neither gay like butterflies nor sombre like their own species. Nevertheless the present specimen, with his narrow hay-coloured wings, fringed with a tassel of the same colour, seemed to be content with life. It was a pleasant morning, mid-September, mild, benignant, yet with a keener breath than that of the summer months. The plough was already scoring the field opposite the window, and where the share had been, the earth was pressed flat and gleamed with moisture. Such vigour came rolling in from the fields and the down beyond that it was difficult to keep the eyes strictly turned upon the book. The rooks too were keeping one of their annual festivities; soaring round the tree tops until it looked as if a vast net with thousands of black knots in it had been cast up into the air; which, after a few moments sank slowly down upon the trees until every twig seemed to have a knot at the end of it. Then, suddenly, the net would be thrown into the air again in a wider circle this time, with the utmost clamour and vociferation, as though to be thrown into the air and settle slowly down upon the tree tops were a tremendously exciting experience.</p>
@@ -80,8 +79,3 @@ This project is a fully functional presentation available at the following links
 <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S1.png" width="600" />
 <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S2.png" width="600" />
 <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S3.png" width="600" />
-
-## 💧 Reflection
-Can machines feel?
-### Turing Meets Angelou Roadmap (ChatGPT)
-<img src="https://github.com/redefiningvicky/Thinking-and-Feeling/blob/c3aabe838f660d6eec5d353641bfee83de5920ec/Turing_Meets_Angelou/Turing_Meets_Angelou_Roadmap.png" width="900" />
