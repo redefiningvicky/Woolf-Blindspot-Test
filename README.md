@@ -74,7 +74,7 @@ Subtext: Death is a force too strong for any creature to resist.
 
 ## 👩🏽‍🏫 Presentation Slides (Gamma) <br>
 ### Virginia Woolf Presentation
-This project is a fully functional presentation available at the following links: [View Gamma](https://gamma.app/docs/The-Vitality-of-Life-vs3v1y17f0phpty), [View PDF](https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf.pdf) <p>
+This project is a fully functional presentation available at the following links: [View Gamma](https://gamma.app/docs/Virginia-Woolf-vs3v1y17f0phpty), [View PDF](https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf.pdf) <p>
 ## Virginia Woolf Presentation
 <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S1.png" width="600" />
 <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S2.png" width="600" />
