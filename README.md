@@ -33,41 +33,37 @@ Gemini → Gamma
 Create a 3-slide presentation explaining Virginia Woolf's essay "The Death of the Moth" to an audience that has not read it.
 <p>
 GOAL & OBJECTIVE
+<br>
 Provide viewers with a clear, accessible understanding of Woolf’s main arguments and overarching themes. Support key insights visually using data displays or structured comparative metrics based on textual evidence (e.g., contrast of life force vs. death, duration of struggle, or symbolic scale).
 <p>
 DESIGN & UX GUIDELINES
-<p>
-* Apply modern UX principles: prioritize high visual clarity, strong typographic hierarchy, and generous white space to avoid cognitive overload.
-* Concise copy: Limit the text on each slide to a maximum of 10 seconds of reading time (roughly 15 to 25 words per slide).
-* Aesthetic Theme: Reflect Woolf’s mindset and tone (reflective, solemn, observational) while drawing visual inspiration from late 19th- to early 20th-century artwork (1882–1941 era). Use color palettes, typography, and background tones reminiscent of Modernist fine art from that period.
+<br>
+* Apply modern UX principles: prioritize high visual clarity, strong typographic hierarchy, and generous white space to avoid cognitive overload. <br>
+* Concise copy: Limit the text on each slide to a maximum of 10 seconds of reading time (roughly 15 to 25 words per slide). <br>
+* Aesthetic Theme: Reflect Woolf’s mindset and tone (reflective, solemn, observational) while drawing visual inspiration from late 19th- to early 20th-century artwork (1882–1941 era). Use color palettes, typography, and background tones reminiscent of Modernist fine art from that period. <br>
 <p>
 ACCURACY & PRECISION
+<br>
 All textual content must accurately reflect the themes, tone, and specific textual moments from Woolf's paper.
 <p>
 SLIDE-BY-SLIDE CONTENT BREAKDOWN
 <p>
 SLIDE 1: THE VITALITY OF LIFE
-<p>
-* Main Concept: Introduce the moth as an emblem of pure, unadorned life force.
-* Key Text/Copy:
-Headline: The Essence of Being
-Subtext: A tiny moth represents the overwhelming, indifferent energy of the natural world.
-* Visual/Data Element: A minimalist scale or proportion diagram contrasting the moth's physical insignificance with the vastness of the outside world.
+<br>
+* Main Concept: Introduce the moth as an emblem of pure, unadorned life force. <br>
+* Key Text/Copy: Headline: The Essence of Being Subtext: A tiny moth represents the overwhelming, indifferent energy of the natural world. <br>
+* Visual/Data Element: A minimalist scale or proportion diagram contrasting the moth's physical insignificance with the vastness of the outside world. <br>
 <p>
 SLIDE 2: THE STRUGGLE AGAINST FATALITY
-<p>
-* Main Concept: Illustrate the sudden shift as the moth encounters death and fights against inevitable paralysis.
-* Key Text/Copy:
-Headline: An Unequal Combat
-Subtext: Against immense odds, the insect mounts a fierce, quiet resistance against mortality.
-* Visual/Data Element: A simple two-part comparison bar chart showing Vitality/Energy dropping against the inevitable Surge of Death over time.
+<br>
+* Main Concept: Illustrate the sudden shift as the moth encounters death and fights against inevitable paralysis. <br>
+* Key Text/Copy: Headline: An Unequal Combat Subtext: Against immense odds, the insect mounts a fierce, quiet resistance against mortality. <br>
+* Visual/Data Element: A simple two-part comparison bar chart showing Vitality/Energy dropping against the inevitable Surge of Death over time. <br>
 <p>
 SLIDE 3: THE TRUMPH AND INEVITABILITY OF DEATH
-<p>
-* Main Concept: Conclude with Woolf’s realization of death’s ultimate, peaceful triumph over all living things.
-* Key Text/Copy:
-Headline: The Inevitable Triumph
-Subtext: Death is a force too strong for any creature to resist.
+<br>
+* Main Concept: Conclude with Woolf’s realization of death’s ultimate, peaceful triumph over all living things. <br>
+* Key Text/Copy: Headline: The Inevitable Triumph Subtext: Death is a force too strong for any creature to resist. <br>
 * Visual/Data Element: A final stat display or visual contrast highlighting 100% Inevitability alongside Woolf's closing reflection: "Death is stronger than I am."
 <p>
 </details>
