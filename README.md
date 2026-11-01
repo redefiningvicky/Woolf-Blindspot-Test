@@ -79,17 +79,17 @@ This project is a fully functional presentation available at the following links
 <table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; border-color: #ccc;">
   <tr>
     <td align="center">
-      <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S1.png?raw=true" width="750" />
+      <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S1.png?raw=true" width="900" />
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S2.png?raw=true" width="750" />
+      <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S2.png?raw=true" width="900" />
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S3.png?raw=true" width="750" />
+      <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S3.png?raw=true" width="900" />
     </td>
   </tr>
 </table>
