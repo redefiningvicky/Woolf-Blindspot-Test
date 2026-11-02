@@ -23,7 +23,7 @@ This project explores AI-assisted visual storytelling through Virginia Woolf’s
 ## 🛠️ Tools <br>
 Gemini, Gamma <p>
 ## 🔀 Workflow <br>
-Gemini → Gamma → Gemini
+Gemini → Gamma
 ## ⌨️ Presentation Prompts (Gemini)
 ### 🤵🏻 Virginia Woolf Presentation Prompt
 <details>
