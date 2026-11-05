@@ -25,6 +25,8 @@ Gemini, Gamma <p>
 ## 🔀 Workflow <br>
 Gemini → Gamma <p>
 1 Prompt <br>
+## ⚙️ Model <br>
+Gemini 3 <p>
 ## ⌨️ Presentation Prompts (Gemini)
 ### 🤵🏻 Virginia Woolf Presentation Prompt
 <details>
