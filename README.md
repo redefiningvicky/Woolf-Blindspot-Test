@@ -26,7 +26,7 @@ Gemini, Gamma <p>
 Gemini → Gamma <p>
 1 Prompt <br>
 ## ⚙️ Model <br>
-Gemini 3 Models <p>
+Gemini 3 Models (2026) <p>
 ## ⌨️ Presentation Prompts (Gemini)
 ### 🤵🏻 Virginia Woolf Presentation Prompt
 <details>
