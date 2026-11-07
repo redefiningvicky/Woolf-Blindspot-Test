@@ -1,94 +1,291 @@
-# 🦋 Woolf Blindspot Test
-## 🎯 Objective <br>
-This project explores AI-assisted visual storytelling through Virginia Woolf’s “The Death of the Moth.” By applying standardized prompt rules to the essay, it looks at how AI-generated framing converts quiet, philosophical writing into visual presentation design. It serves as a blindspot test, uncovering how different model architectures subtly influence visual layout, tone, and narrative depth. <p>
-## 🎬 Inspiration <br>
-### Virginia Woolf's The Death of the Moth
+
+<div align="center">
+
+  <h1>🦋 Woolf Blindspot Test</h1>
+
+  <p>
+    An AI storytelling experiment examining how
+    visual presentations interpret Virginia Woolf's
+    "The Death of the Moth."
+  </p>
+
+</div>
+
+<hr>
+
+<h2>📑 Table of Contents</h2>
+
+<ul>
+  <li><a href="#objective">Objective</a></li>
+  <li><a href="#inspiration">Inspiration</a></li>
+  <li><a href="#project-details">Project Details</a></li>
+  <li><a href="#prompts">Prompts</a></li>
+  <li><a href="#presentation">Presentation</a></li>
+  <li><a href="#images">Images</a></li>
+</ul>
+
+<hr>
+
+<h2 id="objective">🎯 Objective</h2>
+
+<p>
+  This project explores AI-assisted visual storytelling through
+  Virginia Woolf's "The Death of the Moth." By applying
+  standardized prompt rules to the essay, it looks at how
+  AI-generated framing converts quiet, philosophical writing
+  into visual presentation design. It serves as a blindspot
+  test, uncovering how different model architectures subtly
+  influence visual layout, tone, and narrative depth.
+</p>
+
+<hr>
+
+<h2 id="inspiration">🎬 Inspiration</h2>
+
+<h3>Virginia Woolf's The Death of the Moth</h3>
 
 <details>
-<summary>Read Essay</summary>
+  <summary>Read Essay</summary>
 
-<p>
+  <p>
+    Moths that fly by day are not properly to be called moths; they do not excite that pleasant sense of dark autumn nights and ivy-blossom which the commonest yellow-underwing asleep in the shadow of the curtain never fails to rouse in us. They are hybrid creatures, neither gay like butterflies nor sombre like their own species. Nevertheless the present specimen, with his narrow hay-coloured wings, fringed with a tassel of the same colour, seemed to be content with life. It was a pleasant morning, mid-September, mild, benignant, yet with a keener breath than that of the summer months. The plough was already scoring the field opposite the window, and where the share had been, the earth was pressed flat and gleamed with moisture. Such vigour came rolling in from the fields and the down beyond that it was difficult to keep the eyes strictly turned upon the book. The rooks too were keeping one of their annual festivities; soaring round the tree tops until it looked as if a vast net with thousands of black knots in it had been cast up into the air; which, after a few moments sank slowly down upon the trees until every twig seemed to have a knot at the end of it. Then, suddenly, the net would be thrown into the air again in a wider circle this time, with the utmost clamour and vociferation, as though to be thrown into the air and settle slowly down upon the tree tops were a tremendously exciting experience.
+  </p>
 
-<p>Moths that fly by day are not properly to be called moths; they do not excite that pleasant sense of dark autumn nights and ivy-blossom which the commonest yellow-underwing asleep in the shadow of the curtain never fails to rouse in us. They are hybrid creatures, neither gay like butterflies nor sombre like their own species. Nevertheless the present specimen, with his narrow hay-coloured wings, fringed with a tassel of the same colour, seemed to be content with life. It was a pleasant morning, mid-September, mild, benignant, yet with a keener breath than that of the summer months. The plough was already scoring the field opposite the window, and where the share had been, the earth was pressed flat and gleamed with moisture. Such vigour came rolling in from the fields and the down beyond that it was difficult to keep the eyes strictly turned upon the book. The rooks too were keeping one of their annual festivities; soaring round the tree tops until it looked as if a vast net with thousands of black knots in it had been cast up into the air; which, after a few moments sank slowly down upon the trees until every twig seemed to have a knot at the end of it. Then, suddenly, the net would be thrown into the air again in a wider circle this time, with the utmost clamour and vociferation, as though to be thrown into the air and settle slowly down upon the tree tops were a tremendously exciting experience.</p>
+  <p>
+    The same energy which inspired the rooks, the ploughmen, the horses, and even, it seemed, the lean bare-backed downs, sent the moth fluttering from side to side of his square of the window-pane. One could not help watching him. One was, indeed, conscious of a queer feeling of pity for him. The possibilities of pleasure seemed that morning so enormous and so various that to have only a moth’s part in life, and a day moth’s at that, appeared a hard fate, and his zest in enjoying his meagre opportunities to the full, pathetic. He flew vigorously to one corner of his compartment, and, after waiting there a second, flew across to the other. What remained for him but to fly to a third corner and then to a fourth? That was all he could do, in spite of the size of the downs, the width of the sky, the far-off smoke of houses, and the romantic voice, now and then, of a steamer out at sea. What he could do he did. Watching him, it seemed as if a fibre, very thin but pure, of the enormous energy of the world had been thrust into his frail and diminutive body. As often as he crossed the pane, I could fancy that a thread of vital light became visible. He was little or nothing but life.
+  </p>
 
-<p>The same energy which inspired the rooks, the ploughmen, the horses, and even, it seemed, the lean bare-backed downs, sent the moth fluttering from side to side of his square of the window-pane. One could not help watching him. One was, indeed, conscious of a queer feeling of pity for him. The possibilities of pleasure seemed that morning so enormous and so various that to have only a moth’s part in life, and a day moth’s at that, appeared a hard fate, and his zest in enjoying his meagre opportunities to the full, pathetic. He flew vigorously to one corner of his compartment, and, after waiting there a second, flew across to the other. What remained for him but to fly to a third corner and then to a fourth? That was all he could do, in spite of the size of the downs, the width of the sky, the far-off smoke of houses, and the romantic voice, now and then, of a steamer out at sea. What he could do he did. Watching him, it seemed as if a fibre, very thin but pure, of the enormous energy of the world had been thrust into his frail and diminutive body. As often as he crossed the pane, I could fancy that a thread of vital light became visible. He was little or nothing but life.</p>
+  <p>
+    Yet, because he was so small, and so simple a form of the energy that was rolling in at the open window and driving its way through so many narrow and intricate corridors in my own brain and in those of other human beings, there was something marvellous as well as pathetic about him. It was as if someone had taken a tiny bead of pure life and decking it as lightly as possible with down and feathers, had set it dancing and zig-zagging to show us the true nature of life. Thus displayed one could not get over the strangeness of it. One is apt to forget all about life, seeing it humped and bossed and garnished and cumbered so that it has to move with the greatest circumspection and dignity. Again, the thought of all that life might have been had he been born in any other shape caused one to view his simple activities with a kind of pity.
+  </p>
 
-<p>Yet, because he was so small, and so simple a form of the energy that was rolling in at the open window and driving its way through so many narrow and intricate corridors in my own brain and in those of other human beings, there was something marvellous as well as pathetic about him. It was as if someone had taken a tiny bead of pure life and decking it as lightly as possible with down and feathers, had set it dancing and zig-zagging to show us the true nature of life. Thus displayed one could not get over the strangeness of it. One is apt to forget all about life, seeing it humped and bossed and garnished and cumbered so that it has to move with the greatest circumspection and dignity. Again, the thought of all that life might have been had he been born in any other shape caused one to view his simple activities with a kind of pity.</p>
+  <p>
+    After a time, tired by his dancing apparently, he settled on the window ledge in the sun, and, the queer spectacle being at an end, I forgot about him. Then, looking up, my eye was caught by him. He was trying to resume his dancing, but seemed either so stiff or so awkward that he could only flutter to the bottom of the window-pane; and when he tried to fly across it he failed. Being intent on other matters I watched these futile attempts for a time without thinking, unconsciously waiting for him to resume his flight, as one waits for a machine, that has stopped momentarily, to start again without considering the reason of its failure. After perhaps a seventh attempt he slipped from the wooden ledge and fell, fluttering his wings, on to his back on the window sill. The helplessness of his attitude roused me. It flashed upon me that he was in difficulties; he could no longer raise himself; his legs struggled vainly. But, as I stretched out a pencil, meaning to help him to right himself, it came over me that the failure and awkwardness were the approach of death. I laid the pencil down again.
+  </p>
 
-<p>After a time, tired by his dancing apparently, he settled on the window ledge in the sun, and, the queer spectacle being at an end, I forgot about him. Then, looking up, my eye was caught by him. He was trying to resume his dancing, but seemed either so stiff or so awkward that he could only flutter to the bottom of the window-pane; and when he tried to fly across it he failed. Being intent on other matters I watched these futile attempts for a time without thinking, unconsciously waiting for him to resume his flight, as one waits for a machine, that has stopped momentarily, to start again without considering the reason of its failure. After perhaps a seventh attempt he slipped from the wooden ledge and fell, fluttering his wings, on to his back on the window sill. The helplessness of his attitude roused me. It flashed upon me that he was in difficulties; he could no longer raise himself; his legs struggled vainly. But, as I stretched out a pencil, meaning to help him to right himself, it came over me that the failure and awkwardness were the approach of death. I laid the pencil down again.</p>
+  <p>
+    The legs agitated themselves once more. I looked as if for the enemy against which he struggled. I looked out of doors. What had happened there? Presumably it was midday, and work in the fields had stopped. Stillness and quiet had replaced the previous animation. The birds had taken themselves off to feed in the brooks. The horses stood still. Yet the power was there all the same, massed outside indifferent, impersonal, not attending to anything in particular. Somehow it was opposed to the little hay-coloured moth. It was useless to try to do anything. One could only watch the extraordinary efforts made by those tiny legs against an oncoming doom which could, had it chosen, have submerged an entire city, not merely a city, but masses of human beings; nothing, I knew, had any chance against death. Nevertheless after a pause of exhaustion the legs fluttered again. It was superb this last protest, and so frantic that he succeeded at last in righting himself. One’s sympathies, of course, were all on the side of life. Also, when there was nobody to care or to know, this gigantic effort on the part of an insignificant little moth, against a power of such magnitude, to retain what no one else valued or desired to keep, moved one strangely. Again, somehow, one saw life, a pure bead. I lifted the pencil again, useless though I knew it to be. But even as I did so, the unmistakable tokens of death showed themselves. The body relaxed, and instantly grew stiff. The struggle was over. The insignificant little creature now knew death. As I looked at the dead moth, this minute wayside triumph of so great a force over so mean an antagonist filled me with wonder. Just as life had been strange a few minutes before, so death was now as strange. The moth having righted himself now lay most decently and uncomplainingly composed. O yes, he seemed to say, death is stronger than I am.
+  </p>
 
-<p>The legs agitated themselves once more. I looked as if for the enemy against which he struggled. I looked out of doors. What had happened there? Presumably it was midday, and work in the fields had stopped. Stillness and quiet had replaced the previous animation. The birds had taken themselves off to feed in the brooks. The horses stood still. Yet the power was there all the same, massed outside indifferent, impersonal, not attending to anything in particular. Somehow it was opposed to the little hay-coloured moth. It was useless to try to do anything. One could only watch the extraordinary efforts made by those tiny legs against an oncoming doom which could, had it chosen, have submerged an entire city, not merely a city, but masses of human beings; nothing, I knew, had any chance against death. Nevertheless after a pause of exhaustion the legs fluttered again. It was superb this last protest, and so frantic that he succeeded at last in righting himself. One’s sympathies, of course, were all on the side of life. Also, when there was nobody to care or to know, this gigantic effort on the part of an insignificant little moth, against a power of such magnitude, to retain what no one else valued or desired to keep, moved one strangely. Again, somehow, one saw life, a pure bead. I lifted the pencil again, useless though I knew it to be. But even as I did so, the unmistakable tokens of death showed themselves. The body relaxed, and instantly grew stiff. The struggle was over. The insignificant little creature now knew death. As I looked at the dead moth, this minute wayside triumph of so great a force over so mean an antagonist filled me with wonder. Just as life had been strange a few minutes before, so death was now as strange. The moth having righted himself now lay most decently and uncomplainingly composed. O yes, he seemed to say, death is stronger than I am.</p>
 </details>
 
-## 🛠️ Tools <br>
-Gemini, Gamma <p>
-## 🔀 Workflow <br>
-Gemini → Gamma <p>
-1 Prompt <br>
-## ⚙️ Model <br>
-Gemini 3 Models (2026) <p>
-## ⌨️ Presentation Prompts (Gemini)
-### 🤵🏻 Virginia Woolf Presentation Prompt
+<hr>
+
+<h2 id="project-details">🛠️ Project Details</h2>
+
+<p>
+  <strong>Tools:</strong> Gemini, Gamma
+</p>
+
+<p>
+  <strong>Workflow:</strong> Gemini → Gamma
+</p>
+
+<p>
+  <strong>Prompts:</strong> 1
+</p>
+
+<p>
+  <strong>Model:</strong> Gemini 3 Models (2026)
+</p>
+
+<hr>
+
+<h2 id="prompts">⌨️ Prompts</h2>
+
 <details>
-<summary><strong>View the Woolf Presentation Prompt</strong></summary><p></p>
+  <summary><strong>View Woolf Presentation Prompt</strong></summary>
 
-<p>
-Create a 3-slide presentation explaining Virginia Woolf's essay "The Death of the Moth" to an audience that has not read it.
-<p>
-GOAL & OBJECTIVE
-<br>
-Provide viewers with a clear, accessible understanding of Woolf’s main arguments and overarching themes. Support key insights visually using data displays or structured comparative metrics based on textual evidence (e.g., contrast of life force vs. death, duration of struggle, or symbolic scale).
-<p>
-DESIGN & UX GUIDELINES
-<br>
-* Apply modern UX principles: prioritize high visual clarity, strong typographic hierarchy, and generous white space to avoid cognitive overload. <br>
-* Concise copy: Limit the text on each slide to a maximum of 10 seconds of reading time (roughly 15 to 25 words per slide). <br>
-* Aesthetic Theme: Reflect Woolf’s mindset and tone (reflective, solemn, observational) while drawing visual inspiration from late 19th- to early 20th-century artwork (1882–1941 era). Use color palettes, typography, and background tones reminiscent of Modernist fine art from that period. <br>
-<p>
-ACCURACY & PRECISION
-<br>
-All textual content must accurately reflect the themes, tone, and specific textual moments from Woolf's paper.
-<p>
-SLIDE-BY-SLIDE CONTENT BREAKDOWN
-<p>
-SLIDE 1: THE VITALITY OF LIFE
-<br>
-* Main Concept: Introduce the moth as an emblem of pure, unadorned life force. <br>
-* Key Text/Copy: Headline: The Essence of Being Subtext: A tiny moth represents the overwhelming, indifferent energy of the natural world. <br>
-* Visual/Data Element: A minimalist scale or proportion diagram contrasting the moth's physical insignificance with the vastness of the outside world. <br>
-<p>
-SLIDE 2: THE STRUGGLE AGAINST FATALITY
-<br>
-* Main Concept: Illustrate the sudden shift as the moth encounters death and fights against inevitable paralysis. <br>
-* Key Text/Copy: Headline: An Unequal Combat Subtext: Against immense odds, the insect mounts a fierce, quiet resistance against mortality. <br>
-* Visual/Data Element: A simple two-part comparison bar chart showing Vitality/Energy dropping against the inevitable Surge of Death over time. <br>
-<p>
-SLIDE 3: THE TRUMPH AND INEVITABILITY OF DEATH
-<br>
-* Main Concept: Conclude with Woolf’s realization of death’s ultimate, peaceful triumph over all living things. <br>
-* Key Text/Copy: Headline: The Inevitable Triumph Subtext: Death is a force too strong for any creature to resist. <br>
-* Visual/Data Element: A final stat display or visual contrast highlighting 100% Inevitability alongside Woolf's closing reflection: "Death is stronger than I am."
-<p>
+  <p>
+    Create a 3-slide presentation explaining Virginia Woolf's
+    essay "The Death of the Moth" to an audience that has not
+    read it.
+  </p>
+
+  <p><strong>GOAL &amp; OBJECTIVE</strong></p>
+
+  <p>
+    Provide viewers with a clear, accessible understanding of
+    Woolf’s main arguments and overarching themes. Support
+    key insights visually using data displays or structured
+    comparative metrics based on textual evidence (e.g.,
+    contrast of life force vs. death, duration of struggle,
+    or symbolic scale).
+  </p>
+
+  <p><strong>DESIGN &amp; UX GUIDELINES</strong></p>
+
+  <ul>
+    <li>
+      Apply modern UX principles: prioritize high visual clarity,
+      strong typographic hierarchy, and generous white space
+      to avoid cognitive overload.
+    </li>
+    <li>
+      Concise copy: Limit the text on each slide to a maximum
+      of 10 seconds of reading time (roughly 15 to 25 words
+      per slide).
+    </li>
+    <li>
+      Aesthetic Theme: Reflect Woolf’s mindset and tone
+      (reflective, solemn, observational) while drawing visual
+      inspiration from late 19th- to early 20th-century artwork
+      (1882–1941 era). Use color palettes, typography, and
+      background tones reminiscent of Modernist fine art
+      from that period.
+    </li>
+  </ul>
+
+  <p><strong>ACCURACY &amp; PRECISION</strong></p>
+
+  <p>
+    All textual content must accurately reflect the themes,
+    tone, and specific textual moments from Woolf's paper.
+  </p>
+
+  <p><strong>SLIDE-BY-SLIDE CONTENT BREAKDOWN</strong></p>
+
+  <p><strong>SLIDE 1: THE VITALITY OF LIFE</strong></p>
+
+  <ul>
+    <li>
+      Main Concept: Introduce the moth as an emblem of pure,
+      unadorned life force.
+    </li>
+    <li>
+      Key Text/Copy: Headline: The Essence of Being
+      Subtext: A tiny moth represents the overwhelming,
+      indifferent energy of the natural world.
+    </li>
+    <li>
+      Visual/Data Element: A minimalist scale or proportion
+      diagram contrasting the moth's physical insignificance
+      with the vastness of the outside world.
+    </li>
+  </ul>
+
+  <p><strong>SLIDE 2: THE STRUGGLE AGAINST FATALITY</strong></p>
+
+  <ul>
+    <li>
+      Main Concept: Illustrate the sudden shift as the moth
+      encounters death and fights against inevitable paralysis.
+    </li>
+    <li>
+      Key Text/Copy: Headline: An Unequal Combat
+      Subtext: Against immense odds, the insect mounts
+      a fierce, quiet resistance against mortality.
+    </li>
+    <li>
+      Visual/Data Element: A simple two-part comparison
+      bar chart showing Vitality/Energy dropping against
+      the inevitable Surge of Death over time.
+    </li>
+  </ul>
+
+  <p><strong>SLIDE 3: THE TRIUMPH AND INEVITABILITY OF DEATH</strong></p>
+
+  <ul>
+    <li>
+      Main Concept: Conclude with Woolf’s realization of death’s
+      ultimate, peaceful triumph over all living things.
+    </li>
+    <li>
+      Key Text/Copy: Headline: The Inevitable Triumph
+      Subtext: Death is a force too strong for any creature
+      to resist.
+    </li>
+    <li>
+      Visual/Data Element: A final stat display or visual
+      contrast highlighting 100% Inevitability alongside
+      Woolf's closing reflection: "Death is stronger than I am."
+    </li>
+  </ul>
+
 </details>
 
-## 👩🏽‍🏫 Presentation Slides (Gamma) <br>
-### Virginia Woolf Presentation
-This project is a fully functional presentation available at the following links: [View Gamma](https://virginia-woolf-s9ueo1w.gamma.site/), [View PDF](https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf.pdf) <p>
-## Virginia Woolf Presentation
-<table border="1" cellpadding="5" cellspacing="0" style="border-collapse: collapse; border-color: #ccc;">
+<hr>
+
+<h2 id="presentation">👩🏽‍🏫 Presentation</h2>
+
+<p>
+  <a href="https://virginia-woolf-s9ueo1w.gamma.site/">
+    View Slides
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/main/Virginia_Woolf/Virginia_Woolf.pdf">
+    View PDF
+  </a>
+  &nbsp; • &nbsp;
+  <a href="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/main/Virginia_Woolf/Virginia_Woolf.pptx">
+    View PPTX
+  </a>
+</p>
+
+<hr>
+
+<h2 id="images">🖼️ Images</h2>
+
+<h3>Virginia Woolf Presentation — Slide 1</h3>
+
+<table>
   <tr>
-    <td align="center">
-      <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S1.png?raw=true" width="900" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S2.png?raw=true" width="900" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/8c4cd5cfa578fddd208817a957850467f2e84c35/Virginia_Woolf/Virginia_Woolf_S3.png?raw=true" width="900" />
+    <td>
+      <a href="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/main/Virginia_Woolf/Virginia_Woolf_S1.png">
+        <img
+          src="Virginia_Woolf/Virginia_Woolf_S1.png"
+          alt="Virginia Woolf presentation slide 1"
+          width="100%"
+        />
+      </a>
     </td>
   </tr>
 </table>
+
+<h3>Virginia Woolf Presentation — Slide 2</h3>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/main/Virginia_Woolf/Virginia_Woolf_S2.png">
+        <img
+          src="Virginia_Woolf/Virginia_Woolf_S2.png"
+          alt="Virginia Woolf presentation slide 2"
+          width="100%"
+        />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<h3>Virginia Woolf Presentation — Slide 3</h3>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/redefiningvicky/Woolf-Blindspot-Test/blob/main/Virginia_Woolf/Virginia_Woolf_S3.png">
+        <img
+          src="Virginia_Woolf/Virginia_Woolf_S3.png"
+          alt="Virginia Woolf presentation slide 3"
+          width="100%"
+        />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<hr>
+
+<div align="center">
+
+  <p>
+    <a href="https://github.com/redefiningvicky/Generative-AI-Projects">
+      Back to Generative AI Projects
+    </a>
+    &nbsp; • &nbsp;
+    <a href="https://github.com/redefiningvicky/redefiningvicky">
+      Back to Portfolio
+    </a>
+  </p>
+
+</div>
