@@ -89,6 +89,8 @@
   <strong>Model:</strong> Gemini 3 Models (2026)
 </p>
 
+<p><strong>Format:</strong> Image, Presentation Slide</p>
+
 <hr>
 
 <h2 id="prompts">⌨️ Prompts</h2>
