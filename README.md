@@ -86,7 +86,7 @@
 </p>
 
 <p>
-  <strong>Model:</strong> Gemini 3 Models (2026)
+  <strong>Models:</strong> Gemini 3 Models (2026)
 </p>
 
 <p><strong>Format:</strong> Image, Presentation Slide</p>
